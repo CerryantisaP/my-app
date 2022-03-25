@@ -5,9 +5,40 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.Song {
+  background-color: black;
+}
+
+.Song-wrap {
+  height: 440px;
+  width: 400px;
+  background-color: rgb(194, 110, 194);
+  font-weight: normal;
+  margin: 5px 4px;
+  padding: 2px;
+  color: whitesmoke;
+  font-size: 13px;
+  border: 1.5px solid rgb(255, 238, 238);
+}
+
+
+
+Button {
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: rgb(22, 20, 20);
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+}
+
+
