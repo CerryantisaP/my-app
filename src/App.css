@@ -1,5 +1,37 @@
 .App {
   text-align: center;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.cardsong {
+  height: 320px;
+  width: 32%;
+  background-color: rgb(194, 110, 194);
+  font-weight: normal;
+  margin: 6px;
+  padding:2px 2px;
+  color: whitesmoke;
+  font-size: 10px;
+  border: 1.5px solid rgb(255, 238, 238);
+  float: left;
+}
+
+.Song {
+  background-color: black;
+}
+
+
+Button {
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: rgb(22, 20, 20);
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
 }
 
 .App-logo {
@@ -14,7 +46,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

@@ -1,19 +1,21 @@
-import React from 'react';
-import data from '../data/dataAlbum';
+import React from "react";
+import data from "../data/dataAlbum";
 
-const Song=({title,artist,img})=> {
-    return (
-       <div className="Song">
-           <center>
-           <div className="Song-wrap">
-               <img src={img} alt={title} className="song_img" height="300px" width="300px"/>
-               <h3 className="Song_album">Title : {title}</h3>
-               <h3 className="Song_artist">Artist : {artist}</h3>
-            <button>Select</button>
-           </div>
-           </center>
-        </div>
+const Song= ()=> {
+    return(
+<div className="App">
+    <justify>
+{data.map((data) => (
+          <div className="cardsong" key= {data.id}>
+            <img className="album" id="albumImage" src={data.album.images[0].url} alt="albumImage" height="200px" width="200px"/>
+            <h2 className="songTitle">Title : {data.name}</h2>
+            <h2 className="songArtist">Artist : {data.artists[0].name}</h2>
+            <button className="playSong">Select</button>
+          </div>
+        ))}
+        </justify>
+      </div>
     )
-}
+};
 
 export default Song;
