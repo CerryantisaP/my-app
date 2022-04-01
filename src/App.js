@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import SpotifyWebApi from 'spotify-web-api-node';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
@@ -23,9 +23,9 @@ if (spotifyToken) {
 function App() {
   // Begin login procedure
   const CLIENT_ID = process.env.REACT_APP_CLIENT_ID;
-  const REDIRECT_URI = "http://localhost:3000/redirect/";
+  const REDIRECT_URI = 'http://localhost:3000/redirect/';
   const AUTH_ENDPOINT = process.env.REACT_APP_AUTH_URL;
-  const RESPONSE_TYPE = "token";
+  const RESPONSE_TYPE = 'token';
 
   const [token, setToken] = useState("");
 
