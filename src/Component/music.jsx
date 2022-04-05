@@ -1,7 +1,7 @@
 import React from "react";
 import data from "../data/dataAlbum";
 
-const Song= ()=> {
+const Music= ()=> {
     return(
 <div className="App">
     <justify>
@@ -18,4 +18,4 @@ const Song= ()=> {
     )
 };
 
-export default Song;
+export default Music;
