@@ -10,9 +10,38 @@ code {
   font-family: 'Courier New', Courier, monospace;
 }
 
-.form-search_input {
+.Form {
+  margin-left: 28px;
+}
+
+.Form-title {
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.Form-body {
+  color: whitesmoke;
+}
+
+.submit {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #473a2e;
+  color: whitesmoke;
+}
+
+.form-input {
   margin: 30px 10px 20px 700px;
   font-size: 20px;
+}
+
+a, button[type=submit] {
+  border-radius: 3px;
+  background-color: #140c06;
+  color: whitesmoke;
+  font-size: 15px;
+  padding: 5px;
 }
 
 .card_img{
@@ -21,12 +50,16 @@ code {
 
 .Card{
   border: 1px solid white;
+  color: rgb(252, 206, 206);
   border-radius: 5px;
-  padding: 10px;
-  width: 300px;
+  padding: 5px;
+  width: 330px;
   text-align: center;
-  background-color: rgb(233, 141, 98);
+  background-color: purple;
   margin: 20px;
+  float: left;
+  margin-left: 15px;
+  font-size:15px;
 }
 
 .album-card{
