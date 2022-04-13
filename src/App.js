@@ -1,8 +1,8 @@
-import "./index.css";
 import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 import CreatePlayList from "./page/createPlaylist";
 import Login from "./page/login";
 import {useSelector} from "react-redux";
+import "./index.css";
 
 function App() {
   const isLogin = useSelector(state => state.auth.isLogin);

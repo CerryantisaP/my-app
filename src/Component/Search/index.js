@@ -1,5 +1,6 @@
 import React, { useState, useEffect }from 'react'
 import config from '../../lib/config'
+import "./index.css";
 import { useSelector } from 'react-redux';
 const Search= ({ onSuccess}) =>{
   const accessToken = useSelector((state)=>state.auth.accessToken);
@@ -32,7 +33,7 @@ const onSubmit = async (e) => {
     return(
         <form className='form-search' onSubmit={onSubmit}>
         <input type="text" placeholder="Search.." className="form-input" required onChange={ handleInput}/>
-        <button type="submit">Search</button>
+        <button className='submitsearch' type="submit">Search</button>
         </form>
     )
     }
