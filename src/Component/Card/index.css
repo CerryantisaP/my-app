@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-.Card {
+.card {
     display: flex;
     flex-direction: row;
     border: 2px solid rgb(199, 205, 255);

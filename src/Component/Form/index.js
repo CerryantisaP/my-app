@@ -46,7 +46,6 @@ const Form = ({ uriTracks }) =>{
     const theme = createTheme({
         Create: {
           Create: {
-            // Purple and green play nicely together.
             main: purple[500],
           },
         },
