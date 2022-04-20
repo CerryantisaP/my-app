@@ -39,6 +39,7 @@ const Search : React.FC<IProps> = ({ onSuccess }) => {
         className="form-search-input"
         required
         onChange={handleInput}
+        data-testid="Search"
       />
       <Button type="submit" variant="contained" className="btn-search">
         Search
